@@ -1,7 +1,7 @@
 import "./button.css"
 
-export const Button = () => {
+export const Button = ({btn}) => {
   return (
-    <div>Button</div>
+    <div>{btn}</div>
   )
 }

@@ -1,8 +1,16 @@
+import { Button } from "../button/Button"
 import "./card.css"
 
 
-export const Card = () => {
+export const Card = ({ lang, btn, img }) => {
   return (
-    <div>Card</div>
+    <div>
+    
+
+      <h1>{lang}</h1>
+      <img src={img} alt="image" />
+      <Button btn={btn} />
+
+    </div>
   )
 }
